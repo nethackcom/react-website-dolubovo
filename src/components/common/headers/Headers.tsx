@@ -13,11 +13,15 @@ export const H2 = styled.h1`
   color: ${baseTheme.colors.font_primary};
 `
 
-export const H4 = styled.h4`
+interface IH4 {
+    color: string,
+}
+
+export const H4 = styled.h4<IH4>`
   font-family: ${baseTheme.font_family.inter.standard};
   font-size: 24px;
   font-weight: 400;
-  color: #fff;
+  color: ${({color}) => color};
 `
 
 export const H5 = styled.h5`

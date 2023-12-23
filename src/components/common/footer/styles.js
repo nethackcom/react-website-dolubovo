@@ -117,6 +117,7 @@ export const Subscription = styled.div`
   gap: 130px;
   padding: 45px;
   margin-bottom: 30px;
+  margin-top: 100px;
   
   & .subscription__container-form {
     position: relative;

@@ -103,7 +103,7 @@ export const RecipeCard = ({recipe}: RecipeCardProps) => {
                             {recipe.time} минуты
                         </Text>
                     </div>
-                    <H4>{recipe.title}</H4>
+                    <H4 color={"#fff"}>{recipe.title}</H4>
                 </div>
             </Card>
         </>
