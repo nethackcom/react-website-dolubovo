@@ -1,5 +1,13 @@
 import React from "react";
-import {FooterNavBox, FoooterNav, FooterContacts, FooterBox, ButtonSocialNetwork, FooterBottom} from "./styles";
+import {
+    FooterNavBox,
+    FoooterNav,
+    FooterContacts,
+    FooterBox,
+    ButtonSocialNetwork,
+    FooterBottom,
+    Subscription, SubscriptionInput, SubscriptionButton
+} from "./styles";
 import {PrimaryButton} from "../buttons/Button";
 import {Container} from "../common.styled";
 import logotype from "../../../assets/images/logotype.png";
@@ -8,10 +16,22 @@ import {Link} from "react-router-dom";
 import vk_logotype from "../../../assets/images/icons/social-network/vk.svg";
 import facebook_logotype from "../../../assets/images/icons/social-network/facebook.svg";
 import insta_logotype from "../../../assets/images/icons/social-network/insta.svg";
+import {H5} from "../headers/Headers";
 
 export const Footer = () => {
     return (
         <>
+            <Subscription>
+                <Container>
+                    <div className="subscription__container">
+                        <H5>Подпишитесь на рассылку, чтобы первыми узнавать о новостях и акциях</H5>
+                        <div className="subscription__container-form">
+                            <SubscriptionInput placeholder={"Введите ваш E-mail"}/>
+                            <SubscriptionButton>Подписаться</SubscriptionButton>
+                        </div>
+                    </div>
+                </Container>
+            </Subscription>
             <Container>
                 <FooterBox>
                     <FooterNavBox>

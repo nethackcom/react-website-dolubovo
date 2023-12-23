@@ -18,12 +18,14 @@ export const FlexVertical = styled.div<FlexVerticalProps>`
 `
 
 interface FlexHorizontalProps {
+    align_items: string,
     justify_content: string,
     gap: string,
 }
 export const FlexHorizontal = styled.div<FlexHorizontalProps>`
   display: flex;
-  align-items: center;
+  align-items: ${({align_items}) => align_items};
   justify-content: ${({justify_content}) => justify_content};
   gap: ${({gap}) => gap};
+  position: relative;
 `

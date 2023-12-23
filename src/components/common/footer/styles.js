@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import {baseTheme} from "../../../assets/styles/theme";
 
 export const FooterBox = styled.footer`
   font-family: "Inter", sans-serif;
@@ -104,5 +105,66 @@ export const FooterBottom = styled.div`
     flex: 0 0 auto;
     width: auto;
     max-width: 100%;
+  }
+`
+
+export const Subscription = styled.div`
+  background-color: ${baseTheme.colors.primary};
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 130px;
+  padding: 45px;
+  margin-bottom: 30px;
+  
+  & .subscription__container-form {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex: auto;
+  }
+  
+  & .subscription__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 130px;
+  }
+  
+  & h5 {
+    width: 470px;
+  }
+`
+
+export const SubscriptionInput = styled.input`
+  width: 100%;
+  min-height: 50px;
+  background-color: #00417A;
+  font-size: 13px;
+  font-family: ${baseTheme.font_family.inter.standard};
+  font-weight: 300;
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 75px;
+`
+
+export const SubscriptionButton = styled.button`
+  width: 220px;
+  height: 50px;
+  background-color: #fff;
+  font-size: 13px;
+  color: #43464A;
+  font-family: ${baseTheme.font_family.blogger.medium};
+  border-radius: 40px;
+  text-transform: uppercase;
+  transition: .3s ease-in-out;
+  position: absolute;
+  top: 0;
+  right: 0;
+  
+  &:hover {
+    background-color: ${baseTheme.colors.primary_hover};
+    color: #fff;
   }
 `

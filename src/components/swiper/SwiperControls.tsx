@@ -22,6 +22,10 @@ const Controls = styled.div`
   background-color: #fff;
   border-radius: 40px;
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  bottom: 45px;
+  left: 0px;
+  display: block;
   
   & button {
     display: flex;
@@ -57,11 +61,10 @@ export const SwiperControls = () => {
         setLength((swiper.slides.length) / swiper.params.slidesPerGroup)
     }, [])
 
-    console.log(swiper);
     return (
         <>
             <Controls>
-                <FlexHorizontal gap={"10px"} justify_content={"center"}>
+                <FlexHorizontal gap={"10px"} justify_content={"center"} align_items={"center"}>
                     <button onClick={() => prev()}>
                         <svg width="5" height="9" viewBox="0 0 5 9" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M0 4.5L4.5 0V9L0 4.5Z" fill="#C7CCD1"/>

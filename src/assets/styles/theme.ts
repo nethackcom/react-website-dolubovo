@@ -11,7 +11,7 @@ export const baseTheme = {
 
     font_family: {
         blogger: {
-            standard: "Blogger Sans",
+            regular: "Blogger Sans",
             light: "Blogger Sans Light",
             medium: "Blogger Sans Medium",
             bold: "Blogger Sans Bold",
