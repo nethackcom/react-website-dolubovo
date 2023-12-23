@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/react-website-dolubovo/static/css/main.1d3701fb.css",
-    "main.js": "/react-website-dolubovo/static/js/main.8ed9d593.js",
+    "main.js": "/react-website-dolubovo/static/js/main.10d554e6.js",
     "static/media/technologies.png": "/react-website-dolubovo/static/media/technologies.99b1ff7a31f7bd692281.png",
     "static/media/quality.png": "/react-website-dolubovo/static/media/quality.1ea03d376aa0b3499565.png",
     "static/media/milk.png": "/react-website-dolubovo/static/media/milk.4076156943d74db33b2c.png",
+    "static/media/mother_cheese.png": "/react-website-dolubovo/static/media/mother_cheese.ac8192229a21299d52fb.png",
     "static/media/perekrostok.png": "/react-website-dolubovo/static/media/perekrostok.c2f4373b499feb540db9.png",
     "static/media/pyatorochka.png": "/react-website-dolubovo/static/media/pyatorochka.4a7aa892d2d0f56c7a3a.png",
     "static/media/BloggerSans-Light.woff2": "/react-website-dolubovo/static/media/BloggerSans-Light.3499a64b7bcc9dbed661.woff2",
@@ -21,10 +22,10 @@
     "static/media/wave.svg": "/react-website-dolubovo/static/media/wave.b8fe1cd2ced2e1f2a754dca4ab0c36ee.svg",
     "static/media/insta.svg": "/react-website-dolubovo/static/media/insta.7d3f398728d28b3931506b8545cdbb4b.svg",
     "main.1d3701fb.css.map": "/react-website-dolubovo/static/css/main.1d3701fb.css.map",
-    "main.8ed9d593.js.map": "/react-website-dolubovo/static/js/main.8ed9d593.js.map"
+    "main.10d554e6.js.map": "/react-website-dolubovo/static/js/main.10d554e6.js.map"
   },
   "entrypoints": [
     "static/css/main.1d3701fb.css",
-    "static/js/main.8ed9d593.js"
+    "static/js/main.10d554e6.js"
   ]
 }
