@@ -1,7 +1,9 @@
 {
   "files": {
     "main.css": "/react-website-dolubovo/static/css/main.1d3701fb.css",
-    "main.js": "/react-website-dolubovo/static/js/main.10d554e6.js",
+    "main.js": "/react-website-dolubovo/static/js/main.ea92b9fc.js",
+    "static/media/union.png": "/react-website-dolubovo/static/media/union.03ebe1bffcd294e1e22b.png",
+    "static/media/bucket_of_milk.png": "/react-website-dolubovo/static/media/bucket_of_milk.1782b980478d07625100.png",
     "static/media/technologies.png": "/react-website-dolubovo/static/media/technologies.99b1ff7a31f7bd692281.png",
     "static/media/quality.png": "/react-website-dolubovo/static/media/quality.1ea03d376aa0b3499565.png",
     "static/media/milk.png": "/react-website-dolubovo/static/media/milk.4076156943d74db33b2c.png",
@@ -12,20 +14,24 @@
     "static/media/BloggerSans-Bold.woff2": "/react-website-dolubovo/static/media/BloggerSans-Bold.7d705f9135fc2f9b1ae3.woff2",
     "static/media/BloggerSans.woff2": "/react-website-dolubovo/static/media/BloggerSans.a8f12b04e4bdadc388fa.woff2",
     "static/media/BloggerSans-Medium.woff2": "/react-website-dolubovo/static/media/BloggerSans-Medium.3551eb7154cfdde02867.woff2",
+    "static/media/jug.svg": "/react-website-dolubovo/static/media/jug.c0a8e5f40562c7ec25c2097c32ac5f19.svg",
+    "static/media/cow.svg": "/react-website-dolubovo/static/media/cow.b646f4cc31d33dc579ee258836091cca.svg",
     "static/media/search.svg": "/react-website-dolubovo/static/media/search.4974981a6f208032ddf12e6f065aafd1.svg",
     "static/media/magnit.svg": "/react-website-dolubovo/static/media/magnit.af86142921a46496f4ebc4d548589e06.svg",
     "static/media/vk.svg": "/react-website-dolubovo/static/media/vk.8f8b6043145f45e43548b7c7a1bd0a17.svg",
     "index.html": "/react-website-dolubovo/index.html",
+    "static/media/quotes.svg": "/react-website-dolubovo/static/media/quotes.31e7a106d01e9a76494dc90b468bce8f.svg",
     "static/media/like.svg": "/react-website-dolubovo/static/media/like.f9873454385ecda556fbae726bcdeb20.svg",
     "static/media/facebook.svg": "/react-website-dolubovo/static/media/facebook.65cdaa5ef1f0dc022f42ff693327e882.svg",
     "static/media/timer.svg": "/react-website-dolubovo/static/media/timer.ddc1fc7a6f0fecc56dc8b3e76778f971.svg",
+    "static/media/wave_blue.svg": "/react-website-dolubovo/static/media/wave_blue.b5abb0c6fd1f2538093db715dc2a1f91.svg",
     "static/media/wave.svg": "/react-website-dolubovo/static/media/wave.b8fe1cd2ced2e1f2a754dca4ab0c36ee.svg",
     "static/media/insta.svg": "/react-website-dolubovo/static/media/insta.7d3f398728d28b3931506b8545cdbb4b.svg",
     "main.1d3701fb.css.map": "/react-website-dolubovo/static/css/main.1d3701fb.css.map",
-    "main.10d554e6.js.map": "/react-website-dolubovo/static/js/main.10d554e6.js.map"
+    "main.ea92b9fc.js.map": "/react-website-dolubovo/static/js/main.ea92b9fc.js.map"
   },
   "entrypoints": [
     "static/css/main.1d3701fb.css",
-    "static/js/main.10d554e6.js"
+    "static/js/main.ea92b9fc.js"
   ]
 }
