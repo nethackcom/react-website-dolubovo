@@ -7,6 +7,7 @@ import {Home} from "./pages/Home";
 import {Contacts} from "./pages/Contacts";
 import {Header} from "./components/common/header/Header";
 import {Footer} from "./components/common/footer/Footer";
+import {About} from "./pages/About";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Routes>
                 <Route path="" element={<Home />} />
                 <Route path="contacts" element={<Contacts />} />
+                <Route path="about" element={<About />} />
             </Routes>
 
             <Footer />

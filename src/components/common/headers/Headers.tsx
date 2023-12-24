@@ -7,7 +7,7 @@ export const H1 = styled.h1`
   color: ${baseTheme.colors.font_primary};
 `
 
-export const H2 = styled.h1`
+export const H2 = styled.h2`
   font-family: ${baseTheme.font_family.blogger.light};
   font-size: 42px;
   color: ${baseTheme.colors.font_primary};

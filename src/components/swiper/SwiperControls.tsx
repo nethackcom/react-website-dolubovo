@@ -42,20 +42,9 @@ const Controls = styled.div`
   }
 `
 
-export const SwiperControls = () => {
+export const SwiperControls = ({progress} : {progress:number}) => {
     const swiper = useSwiper();
     const [length, setLength] = useState(0)
-    const [progress, setProgress] = useState(1)
-
-    const prev = () => {
-        swiper.slidePrev()
-        setProgress(swiper.progress + 1);
-    }
-
-    const next = () => {
-        swiper.slideNext()
-        setProgress(swiper.progress + 1);
-    }
 
     useEffect(() => {
         setLength((swiper.slides.length) / swiper.params.slidesPerGroup)
@@ -65,7 +54,7 @@ export const SwiperControls = () => {
         <>
             <Controls>
                 <FlexHorizontal gap={"10px"} justify_content={"center"} align_items={"center"}>
-                    <button onClick={() => prev()}>
+                    <button onClick={() => swiper.slidePrev()}>
                         <svg width="5" height="9" viewBox="0 0 5 9" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M0 4.5L4.5 0V9L0 4.5Z" fill="#C7CCD1"/>
                         </svg>
@@ -74,7 +63,7 @@ export const SwiperControls = () => {
                         <span>{progress}</span>
                         <small>/{length}</small>
                     </SwiperCounter>
-                    <button onClick={() => next()}>
+                    <button onClick={() => swiper.slideNext()}>
                         <svg width="5" height="9" viewBox="0 0 5 9" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M5 4.5L0.5 9V0L5 4.5Z" fill="#C7CCD1"/>
                         </svg>

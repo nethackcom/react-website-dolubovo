@@ -26,3 +26,32 @@ export const Text = styled.span<TextProps>`
   font-weight: ${({font_weight}) => font_weight};
   color: ${({color}) => color};
 `
+
+interface TextBloggerLightProps {
+    fontSize: string,
+    textAlign?: string,
+    color?: string,
+}
+
+export const TextBloggerLight = styled.span<TextBloggerLightProps>`
+  font-family: ${baseTheme.font_family.blogger.light};
+  font-size: ${({fontSize}) => fontSize};
+  font-weight: 300;
+  color: ${({color}) => color ?? baseTheme.colors.font_primary};
+  text-align: ${({textAlign}) => textAlign ?? "left"};
+`
+
+interface TextInterLight {
+    fontSize: string,
+    textAlign?: string,
+    color?: string,
+}
+
+export const TextInterLight = styled.span<TextInterLight>`
+  font-family: ${baseTheme.font_family.inter.standard};
+  font-size: ${({fontSize}) => fontSize};
+  font-weight: 300;
+  color: ${({color}) => color ?? baseTheme.colors.font_primary};
+  text-align: ${({textAlign}) => textAlign ?? "left"};
+  line-height: 140%;
+`

@@ -17,7 +17,7 @@ export const Header = () => {
                                 <Link to="#">Продукция</Link>
                             </li>
                             <li>
-                                <Link to="#">О бренде</Link>
+                                <Link to="about">О бренде</Link>
                             </li>
                             <li>
                                 <Link to="#">Производство</Link>

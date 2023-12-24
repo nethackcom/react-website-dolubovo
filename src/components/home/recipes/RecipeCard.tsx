@@ -77,7 +77,6 @@ const Card = styled.div<CardProps>`
 `
 
 export const RecipeCard = ({recipe}: RecipeCardProps) => {
-    console.log(recipe);
     return (
         <>
             <Card img_url={recipe.img_url}>
