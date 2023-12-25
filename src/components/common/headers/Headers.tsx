@@ -1,15 +1,25 @@
 import styled from "styled-components";
 import {baseTheme} from "../../../assets/styles/theme";
 
-export const H1 = styled.h1`
+interface H1Props {
+    textAlign?: string,
+}
+export const H1 = styled.h1<H1Props>`
   font-family: ${baseTheme.font_family.blogger.light};
   font-size: 58px;
+  text-align: ${({textAlign}) => textAlign ?? "left"};
   color: ${baseTheme.colors.font_primary};
 `
 
 export const H2 = styled.h2`
   font-family: ${baseTheme.font_family.blogger.light};
   font-size: 42px;
+  color: ${baseTheme.colors.font_primary};
+`
+
+export const H3 = styled.h3`
+  font-family: ${baseTheme.font_family.blogger.light};
+  font-size: 32px;
   color: ${baseTheme.colors.font_primary};
 `
 

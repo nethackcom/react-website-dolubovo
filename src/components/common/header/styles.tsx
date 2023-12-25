@@ -1,7 +1,15 @@
 import styled from "styled-components";
 
-export const HeaderBox = styled.header`
-  position: relative;
+interface HeaderBoxProps {
+    background: boolean,
+}
+export const HeaderBox = styled.header<HeaderBoxProps>`
+  position: sticky;
+  top: 0;
+  display: block;
+  z-index: 1000;
+  transition: .3s ease-in-out;
+  background-color: ${({background}) => background ? "#fff" : "transparent"};
 `
 
 export const Menu = styled.nav`

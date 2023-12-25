@@ -29,11 +29,25 @@ const FarmBox = styled.div`
     gap: 50px;
     
     li {
-      list-style: disc;
+      display: flex;
       font-family: ${baseTheme.font_family.blogger.light};
       font-size: 26px;
       line-height: 130%;
       color: ${baseTheme.colors.font_primary};
+    }
+  }
+  
+  & .farm__container--list ul {
+    li::before {
+      width:6px;
+      min-width: 6px;
+      height: 6px;
+      display: block;
+      content: "";
+      border-radius: 100%;
+      margin-right: 30px;
+      margin-top: 15px;
+      background: ${baseTheme.colors.primary};
     }
   }
   

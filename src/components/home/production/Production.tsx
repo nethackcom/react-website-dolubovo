@@ -104,7 +104,7 @@ export const Production = () => {
             <ProductionBox>
                 <img src={Wave} alt="wave" className="wave"/>
                 <Container>
-                    <H1>Производство и качество <br/>молочных продуктов</H1>
+                    <H1 textAlign={"center"}>Производство и качество <br/>молочных продуктов</H1>
                     <SecondaryText width={"560px"} id="text__middle">
                         Ферма «Долюбово» производит традиционные продукты, сочетая фермерское отношение c современными технологиями.
                     </SecondaryText>

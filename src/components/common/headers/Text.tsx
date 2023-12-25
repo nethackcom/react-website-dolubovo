@@ -41,16 +41,31 @@ export const TextBloggerLight = styled.span<TextBloggerLightProps>`
   text-align: ${({textAlign}) => textAlign ?? "left"};
 `
 
-interface TextInterLight {
+interface TextInterLightProps {
     fontSize: string,
     textAlign?: string,
     color?: string,
 }
 
-export const TextInterLight = styled.span<TextInterLight>`
+export const TextInterLight = styled.span<TextInterLightProps>`
   font-family: ${baseTheme.font_family.inter.standard};
   font-size: ${({fontSize}) => fontSize};
   font-weight: 300;
+  color: ${({color}) => color ?? baseTheme.colors.font_primary};
+  text-align: ${({textAlign}) => textAlign ?? "left"};
+  line-height: 140%;
+`
+
+interface TextInterRegularProps {
+    fontSize: string,
+    textAlign?: string,
+    color?: string,
+}
+
+export const TextInterRegular = styled.span<TextInterRegularProps>`
+  font-family: ${baseTheme.font_family.inter.standard};
+  font-size: ${({fontSize}) => fontSize};
+  font-weight: 400;
   color: ${({color}) => color ?? baseTheme.colors.font_primary};
   text-align: ${({textAlign}) => textAlign ?? "left"};
   line-height: 140%;

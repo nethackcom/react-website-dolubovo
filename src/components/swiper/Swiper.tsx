@@ -12,7 +12,7 @@ export const Slider = ({children}: {children: any}) => {
             <Swiper
                 modules={[Autoplay]}
                 autoplay
-                speed={800}
+                speed={1600}
                 spaceBetween={30}
                 slidesPerView={3}
                 slidesPerGroup={3}

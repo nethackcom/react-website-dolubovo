@@ -15,6 +15,7 @@ const Card = styled.div<CardProps>`
   
   h2 {
     margin-bottom: 10px;
+    max-width: 500px;
   }
   
   p {

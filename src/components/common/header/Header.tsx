@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import {Link} from "react-router-dom";
 import logotype from "../../../assets/images/logotype.png";
 import search from "../../../assets/images/icons/search.svg"
@@ -7,9 +7,24 @@ import {Logotype} from "./styles";
 import {Container} from "../common.styled";
 
 export const Header = () => {
+    const [fillBackground, setFillBackground] = useState(false);
+
+    const scrollA = () => {
+        window.scrollY > 10
+            ? setFillBackground(true)
+            : setFillBackground(false);
+    }
+
+    useEffect(() => {
+        window.addEventListener("scroll", scrollA);
+        return () => {
+            window.removeEventListener("scroll", scrollA);
+        }
+    }, []);
+
     return (
         <>
-            <HeaderBox>
+            <HeaderBox background={fillBackground}>
                 <Container>
                     <Menu>
                         <ul>
