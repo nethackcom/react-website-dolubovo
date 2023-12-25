@@ -13,6 +13,7 @@ const HeroBox = styled.div`
   
   & .wave {
     margin-top: -80px;
+    width: 100%;
   }
 `
 
