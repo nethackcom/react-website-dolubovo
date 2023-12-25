@@ -1,8 +1,12 @@
 {
   "files": {
-    "main.css": "/react-website-dolubovo/static/css/main.1d3701fb.css",
-    "main.js": "/react-website-dolubovo/static/js/main.ea92b9fc.js",
+    "main.css": "/react-website-dolubovo/static/css/main.f3d19dac.css",
+    "main.js": "/react-website-dolubovo/static/js/main.9e15fd05.js",
+    "static/media/hero.png": "/react-website-dolubovo/static/media/hero.be46967fb680d6355d02.png",
     "static/media/union.png": "/react-website-dolubovo/static/media/union.03ebe1bffcd294e1e22b.png",
+    "static/media/equipment.png": "/react-website-dolubovo/static/media/equipment.da6b25a84793d97b9f4a.png",
+    "static/media/cheese_production.png": "/react-website-dolubovo/static/media/cheese_production.59dabdfecf1446751206.png",
+    "static/media/man_on_production.png": "/react-website-dolubovo/static/media/man_on_production.ad470633093127f197ab.png",
     "static/media/bucket_of_milk.png": "/react-website-dolubovo/static/media/bucket_of_milk.1782b980478d07625100.png",
     "static/media/technologies.png": "/react-website-dolubovo/static/media/technologies.99b1ff7a31f7bd692281.png",
     "static/media/quality.png": "/react-website-dolubovo/static/media/quality.1ea03d376aa0b3499565.png",
@@ -10,11 +14,16 @@
     "static/media/mother_cheese.png": "/react-website-dolubovo/static/media/mother_cheese.ac8192229a21299d52fb.png",
     "static/media/perekrostok.png": "/react-website-dolubovo/static/media/perekrostok.c2f4373b499feb540db9.png",
     "static/media/pyatorochka.png": "/react-website-dolubovo/static/media/pyatorochka.4a7aa892d2d0f56c7a3a.png",
+    "static/media/andantino-script.woff2": "/react-website-dolubovo/static/media/andantino-script.a84916435f8acd62731a.woff2",
     "static/media/BloggerSans-Light.woff2": "/react-website-dolubovo/static/media/BloggerSans-Light.3499a64b7bcc9dbed661.woff2",
     "static/media/BloggerSans-Bold.woff2": "/react-website-dolubovo/static/media/BloggerSans-Bold.7d705f9135fc2f9b1ae3.woff2",
     "static/media/BloggerSans.woff2": "/react-website-dolubovo/static/media/BloggerSans.a8f12b04e4bdadc388fa.woff2",
     "static/media/BloggerSans-Medium.woff2": "/react-website-dolubovo/static/media/BloggerSans-Medium.3551eb7154cfdde02867.woff2",
     "static/media/jug.svg": "/react-website-dolubovo/static/media/jug.c0a8e5f40562c7ec25c2097c32ac5f19.svg",
+    "static/media/handshake.svg": "/react-website-dolubovo/static/media/handshake.e5773a0ffe042df0e00da484b4a927bd.svg",
+    "static/media/hands.svg": "/react-website-dolubovo/static/media/hands.e228896db1ccc4878973408c7794473e.svg",
+    "static/media/document.svg": "/react-website-dolubovo/static/media/document.35d497267cc6afdba6f8c28b7f13c6f3.svg",
+    "static/media/medal.svg": "/react-website-dolubovo/static/media/medal.eefd605f98bb1075945dffda05e21a86.svg",
     "static/media/cow.svg": "/react-website-dolubovo/static/media/cow.b646f4cc31d33dc579ee258836091cca.svg",
     "static/media/search.svg": "/react-website-dolubovo/static/media/search.4974981a6f208032ddf12e6f065aafd1.svg",
     "static/media/magnit.svg": "/react-website-dolubovo/static/media/magnit.af86142921a46496f4ebc4d548589e06.svg",
@@ -24,14 +33,15 @@
     "static/media/like.svg": "/react-website-dolubovo/static/media/like.f9873454385ecda556fbae726bcdeb20.svg",
     "static/media/facebook.svg": "/react-website-dolubovo/static/media/facebook.65cdaa5ef1f0dc022f42ff693327e882.svg",
     "static/media/timer.svg": "/react-website-dolubovo/static/media/timer.ddc1fc7a6f0fecc56dc8b3e76778f971.svg",
+    "static/media/wave-white.svg": "/react-website-dolubovo/static/media/wave-white.be7383cf2ad53ec27f3cf1017c058ae7.svg",
     "static/media/wave_blue.svg": "/react-website-dolubovo/static/media/wave_blue.b5abb0c6fd1f2538093db715dc2a1f91.svg",
     "static/media/wave.svg": "/react-website-dolubovo/static/media/wave.b8fe1cd2ced2e1f2a754dca4ab0c36ee.svg",
     "static/media/insta.svg": "/react-website-dolubovo/static/media/insta.7d3f398728d28b3931506b8545cdbb4b.svg",
-    "main.1d3701fb.css.map": "/react-website-dolubovo/static/css/main.1d3701fb.css.map",
-    "main.ea92b9fc.js.map": "/react-website-dolubovo/static/js/main.ea92b9fc.js.map"
+    "main.f3d19dac.css.map": "/react-website-dolubovo/static/css/main.f3d19dac.css.map",
+    "main.9e15fd05.js.map": "/react-website-dolubovo/static/js/main.9e15fd05.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d3701fb.css",
-    "static/js/main.ea92b9fc.js"
+    "static/css/main.f3d19dac.css",
+    "static/js/main.9e15fd05.js"
   ]
 }
