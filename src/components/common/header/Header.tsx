@@ -29,7 +29,7 @@ export const Header = () => {
                     <Menu>
                         <ul>
                             <li>
-                                <Link to="#">Продукция</Link>
+                                <Link to="us_products">Продукция</Link>
                             </li>
                             <li>
                                 <Link to="about">О бренде</Link>

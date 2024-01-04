@@ -1,30 +1,6 @@
-import styled from "styled-components";
-import {H2} from "../../common/headers/Headers";
-import {TextInterLight} from "../../common/headers/Text";
-
-interface CardProps {
-    reverse?: boolean,
-}
-
-const Card = styled.div<CardProps>`
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 70px;
-  flex-direction: ${({reverse}) => reverse  && "row-reverse"};
-  
-  h2 {
-    margin-bottom: 10px;
-    max-width: 500px;
-  }
-  
-  p {
-    max-width: 500px;
-    &:first-child {
-      margin-bottom: 10px;
-    }
-  }
-`
+import {H2} from "../../common/font/Headers";
+import {TextInterLight} from "../../common/font/Text";
+import {Card} from "./style";
 
 interface CardDescriptionProps {
     children: any,

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import {Container} from "../../common/common.styled";
-import {H1} from "../../common/headers/Headers";
+import {H1} from "../../common/font/Headers";
 import {PrivilegeCard} from "./PrivilegeCard";
 import Medal from "../../../assets/images/icons/privelege/medal.svg";
 import Document from "../../../assets/images/icons/privelege/document.svg";

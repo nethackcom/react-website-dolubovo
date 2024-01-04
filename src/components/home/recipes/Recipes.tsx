@@ -1,6 +1,6 @@
 import {Container, FlexHorizontal, FlexVertical} from "../../common/common.styled";
-import {H1} from "../../common/headers/Headers";
-import {SecondaryText} from "../../common/headers/Text";
+import {H1} from "../../common/font/Headers";
+import {SecondaryText} from "../../common/font/Text";
 import {PrimaryButton} from "../../common/buttons/Button";
 
 import "swiper/css";

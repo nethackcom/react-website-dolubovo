@@ -1,17 +1,11 @@
 import {Container} from "../../common/common.styled";
-import styled from "styled-components";
 import {CardDescription} from "./CardDescription";
+import {DescriptionContent} from "./style";
 
 import BucketOfMilk from "../../../assets/images/bucket_of_milk.png"
 import CheeseProduction from "../../../assets/images/cheese_production.png"
 import Equipment from "../../../assets/images/equipment.png"
 import Man from "../../../assets/images/man_on_production.png"
-
-const DescriptionContent = styled.div`
-  display: flex;
-  flex-direction: column;
-  gap: 70px;
-`
 
 export const Description = () => {
     return (

@@ -16,7 +16,7 @@ import {Link} from "react-router-dom";
 import vk_logotype from "../../../assets/images/icons/social-network/vk.svg";
 import facebook_logotype from "../../../assets/images/icons/social-network/facebook.svg";
 import insta_logotype from "../../../assets/images/icons/social-network/insta.svg";
-import {H5} from "../headers/Headers";
+import {H5} from "../font/Headers";
 
 export const Footer = () => {
     return (

@@ -14,26 +14,33 @@ export const HeaderBox = styled.header<HeaderBoxProps>`
 
 export const Menu = styled.nav`
   & ul {
-    display: flex;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr 1fr 1fr 1fr;
     align-items: center;
     justify-content: space-between;
   }
   
   & li {
-    margin-right: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
     &:nth-of-type(3) {
       margin-right: 0px;
     }
-    &:nth-of-type(4) {
-      margin-left: auto;
-    }
     &:last-of-type {
-      margin-right: -6px;
+      margin-right: -80px;
+      position: absolute;
+      top: 30%;
+      right: 0;
     }
     
     &.header_nav__logotype {
-      margin-left: 130px;
-      margin-right: 130px;
+      margin-right: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
   }
   & li a {
@@ -54,4 +61,5 @@ export const ButtonSearch = styled.button`
   padding: 12px;
   background: #fff;
   border-radius: 50%;
+  border: 1px solid #dfdfdf;
 `
