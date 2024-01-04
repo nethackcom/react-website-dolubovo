@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-website-dolubovo/static/css/main.f3d19dac.css",
-    "main.js": "/react-website-dolubovo/static/js/main.fd6aa66d.js",
+    "main.js": "/react-website-dolubovo/static/js/main.882e2df4.js",
     "static/media/hero.png": "/react-website-dolubovo/static/media/hero.be46967fb680d6355d02.png",
     "static/media/union.png": "/react-website-dolubovo/static/media/union.03ebe1bffcd294e1e22b.png",
     "static/media/equipment.png": "/react-website-dolubovo/static/media/equipment.da6b25a84793d97b9f4a.png",
@@ -38,10 +38,10 @@
     "static/media/wave.svg": "/react-website-dolubovo/static/media/wave.b8fe1cd2ced2e1f2a754dca4ab0c36ee.svg",
     "static/media/insta.svg": "/react-website-dolubovo/static/media/insta.7d3f398728d28b3931506b8545cdbb4b.svg",
     "main.f3d19dac.css.map": "/react-website-dolubovo/static/css/main.f3d19dac.css.map",
-    "main.fd6aa66d.js.map": "/react-website-dolubovo/static/js/main.fd6aa66d.js.map"
+    "main.882e2df4.js.map": "/react-website-dolubovo/static/js/main.882e2df4.js.map"
   },
   "entrypoints": [
     "static/css/main.f3d19dac.css",
-    "static/js/main.fd6aa66d.js"
+    "static/js/main.882e2df4.js"
   ]
 }
